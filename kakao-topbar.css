@@ -192,10 +192,16 @@ body {
   border-radius: 30px;
 }
 
-/* 탑바 - 언어변경 버튼 */
+/* 탑바 - 지구본 아이콘 추가 */
 .top-bar .global-logo {
   padding: 0 20px;
   cursor: default;
+}
+
+/* 탑바 - 지구본 아이콘 호버효과 */
+.top-bar .global-logo:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }
 /* 탑바 끝 */
 
