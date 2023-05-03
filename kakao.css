@@ -107,13 +107,28 @@ label[for] {
 }
 
 /* 탑바 -> 메뉴아이템 */
-.topbar .menu-box1 > ul > li > a{
+.topbar .menu-box1 > ul > li > a {
   padding: 0 20px;
+  position: relative;
 }
 
-.topbar .menu-box1 > ul > li:hover > a{
-border-bottom: 3px solid black;
-text-decoration: underline;
+.topbar .menu-box1 > ul > li > a::after {
+  content: '';
+  background-color: black;
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width .3s;
+}
+
+.topbar .menu-box1 > ul > li:hover > a {
+  text-decoration: underline;
+}
+
+.topbar .menu-box1 > ul > li:hover > a::after {
+  width: 100%;
 }
 
 /* 탑바 -> 서류제출하기 버튼 */
