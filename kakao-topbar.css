@@ -157,7 +157,8 @@ body {
   position: absolute;
   display: none;
   padding-top: 30px;
-  top:calc(100% + 1px);
+  /* 2차 메뉴를 top에서 1px내려서 호버 시 1차 메뉴의 bottom 선을 보이게 한다  */
+  top:calc(100%+1px);
 }
 
 .top-bar .menu-box-1 > ul > li:hover > div {
@@ -187,7 +188,8 @@ body {
 /* 탑바 - 서류제출 버튼 */
 .top-bar .btn-go-submit {
   background-color: #fede22;
-  padding: 20px;
+  padding: 15px;
+  margin-left: 20px;
   font-weight: bold;
   border-radius: 30px;
 }
