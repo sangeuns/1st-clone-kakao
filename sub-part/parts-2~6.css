@@ -189,7 +189,7 @@ a {
 }
 /* js 라이브러리 적용할 작업 */
 .top-banner-box-3 .img-box > img {
-  transition: transform 1s, opacity 1s;
+  transition: transform 1.4s cubic-bezier(0.6, 0.2, 0.1, 1), opacity 1.4s;
   transform: translateX(100%);
   opacity: 0;
 }
@@ -233,7 +233,7 @@ a {
 }
 /* js 라이브러리 적용할 작업 */
 .top-banner-box-6 .img-box > img {
-  transition: transform 1s, opacity 1s;
+  transition: transform 1.4s cubic-bezier(0.6, 0.2, 0.1, 1), opacity 1.4s;
   transform: translatey(100%);
   opacity: 0;
 }
