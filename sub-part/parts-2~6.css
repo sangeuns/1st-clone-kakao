@@ -193,5 +193,16 @@ a {
   width: 459px;
   border: 2px solid red;
 }
-
 /* parts-4 끝 */
+
+/* parts-5 시작 */
+.top-banner-box-5 .img-box {
+  width: 492px;
+}
+/* parts-5 끝 */
+
+/* parts-6 시작 */
+.top-banner-box-6 .img-box {
+  width: 408px;
+}
+/* parts-6 끝 */
