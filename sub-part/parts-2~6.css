@@ -152,6 +152,10 @@ a {
     margin-top: 40px;
     display: flex;
   }
+
+  .top-banner-box-type-1 .txt-box > .btn-box > a:hover{
+    text-decoration: underline;
+  }
   
   .top-banner-box-type-1 .txt-box > .btn-box > a {
     display: flex;
