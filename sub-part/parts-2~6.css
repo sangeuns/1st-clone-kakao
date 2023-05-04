@@ -85,6 +85,11 @@ a {
   margin-right: auto;
 }
 
+.img-box > img {
+    width: 100%;
+    display: block;
+  }
+
 .relative {
   position: relative;
 }
@@ -98,27 +103,70 @@ a {
   min-width: 1080px;
 }
 
-/* parts 시작 */
-.top-banner-box-type-1{
+/* parts-2 시작 */
+.top-banner-box-type-1 {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid red;
+}
+
+.top-banner-box-type-1 > div:first-child {
+  width: 40%;
+}
+
+.top-banner-box-type-1 > div:last-child {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.top-banner-box-type-1-between-pad {
+  height: 32px;
+  background-color: #fafafa;
+}
+.img-box{
+    text-align: center;
+}
+.top-banner-box-2 .img-box {
+  width: 473px;
+  margin-left: auto;
+  border: 2px solid red;
+}
+
+.txt-box{
     border: 2px solid red;
-    height: 500px;
+}
+
+.top-banner-box-2 .txt-box > h1 {
+  font-size: 40px;
+  line-height: 1.35;
+}
+
+.top-banner-box-2 .txt-box > .des {
+  margin-top: 24px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #666;
+}
+
+.top-banner-box-2 .txt-box > .btn-box {
+    margin-top: 40px;
     display: flex;
-}
-
-.top-banner-box-type-1 > div:first-child{
-    width : 50%;
-    height: 100%;
-    background-color: green;
-}
-
-.top-banner-box-type-1 > div:last-child{
-    height: 100%;
-    flex-grow: 1;
-    background-color: yellow;
-}
-
-.top-banner-box-type-1-between{
-    height: 32px;
-    background-color: #fafafa;
-}
-/* parts 끝 */
+  }
+  
+  .top-banner-box-2 .txt-box > .btn-box > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 258px;
+    height: 56px;
+    font-size: 16px;
+    color: #333;
+    border-radius: 10px;
+  }
+/* parts-2 끝 */
