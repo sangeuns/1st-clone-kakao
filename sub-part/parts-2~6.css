@@ -132,7 +132,7 @@ a {
 }
 .top-banner-box-2 .img-box {
   width: 473px;
- margin-left: 80px;
+ margin-left: 50px;
 }
 
 .top-banner-box-type-1 .txt-box > h1 {
@@ -174,7 +174,6 @@ a {
 /* parts-3 시작 */
 .top-banner-box-3 .img-box {
   width: 473px;
-  margin-left: auto;
   border: 2px solid red;
 }
 
