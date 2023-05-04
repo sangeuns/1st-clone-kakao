@@ -140,12 +140,12 @@ a {
     border: 2px solid red;
 }
 
-.top-banner-box-2 .txt-box > h1 {
+.top-banner-box-type-1 .txt-box > h1 {
   font-size: 40px;
   line-height: 1.35;
 }
 
-.top-banner-box-2 .txt-box > .des {
+.top-banner-box-type-1 .txt-box > .des {
   margin-top: 24px;
   font-size: 15px;
   font-weight: 400;
@@ -153,12 +153,12 @@ a {
   color: #666;
 }
 
-.top-banner-box-2 .txt-box > .btn-box {
+.top-banner-box-type-1 .txt-box > .btn-box {
     margin-top: 40px;
     display: flex;
   }
   
-  .top-banner-box-2 .txt-box > .btn-box > a {
+  .top-banner-box-type-1 .txt-box > .btn-box > a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,3 +170,12 @@ a {
     border-radius: 10px;
   }
 /* parts-2 끝 */
+
+
+/* parts-3 시작 */
+.top-banner-box-3 .img-box {
+  width: 473px;
+  margin-left: auto;
+  border: 2px solid red;
+}
+/* parts-3 끝 */
