@@ -131,17 +131,22 @@ a {
 }
 
 .btns > li > a {
-  display: block;
+  display: flex;
   width: 178px;
   height: 55px;
-  background-color: #ffef6b;
+  background-color: white;
   text-align: center;
-  line-height: 56px;
   font-size: 16.2px;
   font-weight: bold;
   border-radius: 12px;
   margin-right: 10px;
+  align-items: center;
+  justify-content: center;
 }
+.btns > li > a > .ico{
+  margin-right: 10px;
+}
+
 .top-banner-box-1 .txt-box > .btns {
   margin-top: 50px;
 }
