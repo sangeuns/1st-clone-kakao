@@ -107,19 +107,19 @@ a {
 .top-banner-box-type-1 {
   min-height: 500px;
   display: flex;
-  align-items: center;
-  justify-content: center;
   border: 10px solid red;
 }
 
 .top-banner-box-type-1 > div:first-child {
-  width: 50%;
+  width: 55%;
+  display: flex;
+  align-items: center;
 }
 
 .top-banner-box-type-1 > div:last-child {
   flex-grow: 1;
   display: flex;
-  justify-content: center;
+  align-items: center;
   
 }
 
@@ -132,7 +132,6 @@ a {
 }
 .top-banner-box-2 .img-box {
   width: 473px;
- margin-left: 50px;
 }
 
 .top-banner-box-type-1 .txt-box > h1 {
