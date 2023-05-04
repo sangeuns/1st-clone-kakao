@@ -231,7 +231,17 @@ a {
 .top-banner-box-5 .txt-box {
   margin-left: 130px;
 }
+/* js 라이브러리 적용할 작업 */
+.top-banner-box-6 .img-box > img {
+  transition: transform 1s, opacity 1s;
+  transform: translatey(100%);
+  opacity: 0;
+}
 
+.top-banner-box-6 .img-box.active > img {
+  transform: translatey(0);
+  opacity: 1;
+}
 /* parts-5 끝 */
 
 /* parts-6 시작 */
