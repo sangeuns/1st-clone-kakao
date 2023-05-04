@@ -107,7 +107,6 @@ a {
 .top-banner-box-type-1 {
   min-height: 500px;
   display: flex;
-  border: 10px solid red;
 }
 
 .top-banner-box-type-1 > div:first-child {
@@ -129,8 +128,14 @@ a {
 .img-box {
   text-align: center;
 }
+
 .top-banner-box-2 .img-box {
   width: 473px;
+  margin-left: 35px;
+}
+
+.top-banner-box-2 .txt-box{
+ margin-left: 38px; 
 }
 
 .top-banner-box-type-1 .txt-box > h1 {
@@ -171,37 +176,62 @@ a {
 /* parts-3 시작 */
 .top-banner-box-3 .img-box {
   width: 473px;
-  border: 2px solid red;
 }
 
 .img-box-1 > img {
   margin-top: 50px;
   width: 400px;
 }
+
+.top-banner-box-3 .img-box {
+  margin-left: 70px;
+  width: 440px;
+}
+
+.top-banner-box-3 .txt-box{
+ margin-left: 65px; 
+}
+
 /* 자식으로 a가 2개인 것 -> 버튼이 2개인 것 */
 .top-banner-box-type-1 .txt-box > .btn-box > a:not(:only-child) {
   width: 158px;
   margin-right: 10px;
-  border: 2px solid red;
 }
 /* parts-3 끝 */
 
 /* parts-4 시작 */
 .top-banner-box-4 .img-box {
   width: 459px;
-  border: 2px solid red;
+  margin-left: 60px;
 }
+
+.top-banner-box-4 .txt-box{
+ margin-left: 38px; 
+}
+
 /* parts-4 끝 */
 
 /* parts-5 시작 */
 .top-banner-box-5 .img-box {
   width: 492px;
+  margin-right: 5px;
 }
+
+.top-banner-box-5 .txt-box{
+ margin-left: 130px; 
+}
+
 /* parts-5 끝 */
 
 /* parts-6 시작 */
 .top-banner-box-6 .img-box {
   width: 408px;
+  margin-left: 78px;
+}
+
+
+.top-banner-box-5 .txt-box{
+ margin-left: 38px; 
 }
 
 .top-banner-box-6-map {
