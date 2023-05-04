@@ -86,9 +86,9 @@ a {
 }
 
 .img-box > img {
-    width: 100%;
-    display: block;
-  }
+  width: 100%;
+  display: block;
+}
 
 .relative {
   position: relative;
@@ -120,15 +120,14 @@ a {
   flex-grow: 1;
   display: flex;
   align-items: center;
-  
 }
 
 .top-banner-box-type-1-between-pad {
   height: 32px;
   background-color: #fafafa;
 }
-.img-box{
-    text-align: center;
+.img-box {
+  text-align: center;
 }
 .top-banner-box-2 .img-box {
   width: 473px;
@@ -148,27 +147,26 @@ a {
 }
 
 .top-banner-box-type-1 .txt-box > .btn-box {
-    margin-top: 40px;
-    display: flex;
-  }
+  margin-top: 40px;
+  display: flex;
+}
 
-  .top-banner-box-type-1 .txt-box > .btn-box > a:hover{
-    text-decoration: underline;
-  }
-  
-  .top-banner-box-type-1 .txt-box > .btn-box > a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f6f6f6;
-    width: 258px;
-    height: 56px;
-    font-size: 16px;
-    color: #333;
-    border-radius: 10px;
-  }
+.top-banner-box-type-1 .txt-box > .btn-box > a:hover {
+  text-decoration: underline;
+}
+
+.top-banner-box-type-1 .txt-box > .btn-box > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6;
+  width: 258px;
+  height: 56px;
+  font-size: 16px;
+  color: #333;
+  border-radius: 10px;
+}
 /* parts-2 끝 */
-
 
 /* parts-3 시작 */
 .top-banner-box-3 .img-box {
@@ -176,9 +174,9 @@ a {
   border: 2px solid red;
 }
 
-.img-box-1 > img{
+.img-box-1 > img {
   margin-top: 50px;
-  width : 400px;
+  width: 400px;
 }
 /* 자식으로 a가 2개인 것 -> 버튼이 2개인 것 */
 .top-banner-box-type-1 .txt-box > .btn-box > a:not(:only-child) {
@@ -205,4 +203,11 @@ a {
 .top-banner-box-6 .img-box {
   width: 408px;
 }
+
+.top-banner-box-6-map {
+  background-image: url(https://www.kakaobank.com/static/images/web/home_map.png);
+background-repeat: no-repeat;
+background-position: 0 50%;
+}
+
 /* parts-6 끝 */
